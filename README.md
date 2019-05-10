@@ -4,8 +4,13 @@ Pitch: As a food blogger, I want to be able to show off my work and recipes. I h
 MVP Features Breakdown:
 
 This app contains two user types. A professional chef (who has the ability to log in) and a single user (no need to log in so no need for user data to be persisted on this user type) who can view portfolios. 
+
 *Onboarding process for a professional chef. Include their location and contact info for people to reach them. 
+
 *Login Page - After a user logs in, they'll be directed to their portfolio page where they can view what they have posted. They can also click to edit or delete posts. 
+
 *Navigation - Navigation is present on all pages, Users should know what page is active by clicking on a nav link and activating their tab.
+
 *Create Post Page - Allows a user to come in and create a post of a new recipe. Each post needs to have an image, and fields for title, meal type (breakfast, lunch, dinner, snack, dessert), ingredients, and instructions.  (You can hard code the image in for MVP-no need to upload photos for MVP. Stretch goals will include image uploading and the use of Cloudinary API etc. )
+
 *Home Page for non-logged in users - Navigating to the home page users can view posts of different chefs laid out in a single format. (see foodgawker.com for example) Users can click on a single post to read the instructions for the recipe. They can filter by recipe title, meal type,  chef, and ingredients.
