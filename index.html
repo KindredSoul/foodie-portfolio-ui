@@ -1,35 +1,32 @@
 <!-- Where is begins, so shall it end -->
 
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>The Foodie Portfolio - Home</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="./CSS/index.css">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+<!-- Navigation -->
         <header class="header">
-            <div class="Logo">
+            <div class="logo">
                 <h1>Lambda Food</h1>
             </div>
-            <div>
-                <nav class="sticky-nav">
+            <div class="nav-container">
+                <nav class="nav">
                     <a href="#">Home</a>
                     <a href="#">Posts</a>
                     <a href="about.html">About Us</a>
                 </nav>
-                <div>
-                    <span class="navSignUp">New user? Sign Up <a href="#">Here</a>!</span>
-                </div>
+            </div>
+            <div class="login-signUp">
+                <span class="navSignUp">New user? Sign Up <a href="#">Here</a>!</span>
             </div>
         </header>
 
@@ -42,6 +39,9 @@
                 <img src="https://us.123rf.com/450wm/udra/udra1607/udra160700009/60214490-menu-food-culinary-frame-concept-on-black-background.jpg?ver=6" alt="Static Food Image">
                 <div>
                     <button class="signUpBtn">Sign Up</button>
+                </div>
+                
+                <div>
                     <button class="loginBtn">Login</button>
                 </div>
             </article>
@@ -55,7 +55,7 @@
 <!-- Popular Posts Section -->
         <div class="tabs">
             <div class="topics">
-                <div data-tab="popularRecipe" class="tab">Popular Recipes</div>
+                <div data-tab="popularRecipe" class="tab active-tab">Popular Recipes</div>
                 <div data-tab="chefPosts" class="tab">Chef Specials</div>
                 <div data-tab="recentPost" class="tab">Recent Posts</div>
             </div>

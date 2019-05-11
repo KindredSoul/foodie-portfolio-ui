@@ -1,1 +1,29 @@
 // Mixins Here
+.header-border {
+    border-bottom: 4px solid @lambda-red;
+}
+.header-background {
+    background-color: @my-gray;
+}
+
+.flex(@jc: none, @ai: none, @ac: none, @dir: row) {
+    display: flex;
+    justify-content: @jc;
+    align-items: @ai;
+    align-content: @ac;
+    flex-flow: @dir wrap;
+}
+
+.test-border {
+    border: 1px solid black;
+}
+
+.a-tag {
+    a {
+        text-decoration: none;
+        color: @my-orange;
+        &:hover {
+           color: @lambda-red;
+        }
+    }
+}
