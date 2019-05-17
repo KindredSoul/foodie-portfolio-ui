@@ -6,13 +6,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>The Foodie Portfolio - Home</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="./CSS/index.css">
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+
 <!-- Navigation -->
         <header class="header">
             <div class="logo">
@@ -69,33 +68,34 @@
         </section>
 
         <div class="divider"></div>
-<!-- Highlighted Chefs/Recipes Section
-        <section class="highlights">
-
-        </section> -->
 
 <!-- Popular Posts Section -->
         <div class="tabs">
             <div class="topics">
-                <div data-tab="popularRecipe" class="tab active-tab">Popular Recipes</div>
+                <div data-tab="all" class="tab active-tab">Recipes</div>
+                <div data-tab="popularRecipe" class="tab">Popular Recipes</div>
                 <div data-tab="chefPosts" class="tab">Chef Specials</div>
                 <div data-tab="recentPost" class="tab">Recent Posts</div>
             </div>
         </div>
 
+        <div class="divider"></div>
+
         <div class="cards-container">
 
-            <div class="card" data-tab="chefPosts">
+             <div class="card" data-tab="chefPosts">
                 <div class="imgContainer">
                     <img class="previewImg" src="images/chopping-board.jpg" alt="">
                     <span class="defaultImg">No Preview Image Available</span>
                 </div>
                 <div class="post-info">
-                    <div class="title">Title</div>
-                    <div class="mealType">Meal Type</div>
-                    <div class="author">Author</div>
+                    <div class="title">Title: </div>
+                    <div class="mealType">Meal Type: </div>
+                    <div class="author">Author: </div>
                 </div>
-                <button>Read More</button>
+                <a href="">
+                    <button class="postBtn btn">Read More</button>
+                </a>
             </div>
 
             <div class="card" data-tab="popularRecipe">
@@ -104,11 +104,13 @@
                     <span class="defaultImg">No Preview Image Available</span>
                 </div>
                 <div class="post-info">
-                    <div class="title">Title</div>
-                    <div class="mealType">Meal Type</div>
-                    <div class="author">Author</div>
+                    <div class="title">Title: </div>
+                    <div class="mealType">Meal Type: </div>
+                    <div class="author">Author: </div>
                 </div>
-                <button>Read More</button>
+                <a href="">
+                    <button class="postBtn btn">Read More</button>
+                </a>
             </div>
 
             <div class="card" data-tab="recentPost">
@@ -117,11 +119,13 @@
                     <span class="defaultImg">No Preview Image Available</span>
                 </div>
                 <div class="post-info">
-                    <div class="title">Title</div>
-                    <div class="mealType">Meal Type</div>
-                    <div class="author">Author</div>
+                    <div class="title">Title: </div>
+                    <div class="mealType">Meal Type: </div>
+                    <div class="author">Author: </div>
                 </div>
-                <button>Read More</button>
+                <a href="">
+                    <button class="postBtn btn">Read More</button>
+                </a>
             </div>
 
             <div class="card" data-tab="recentPost">
@@ -130,11 +134,43 @@
                     <span class="defaultImg">No Preview Image Available</span>
                 </div>
                 <div class="post-info">
-                    <div class="title">Title</div>
-                    <div class="mealType">Meal Type</div>
-                    <div class="author">Author</div>
+                    <div class="title">Title: </div>
+                    <div class="mealType">Meal Type: </div>
+                    <div class="author">Author: </div>
                 </div>
-                <button>Read More</button>
+                <a href="">
+                    <button class="postBtn btn">Read More</button>
+                </a>
+            </div>
+
+            <div class="card" data-tab="recentPost">
+                    <div class="imgContainer">
+                        <img class="previewImg" src="images/chopping-board.jpg" alt="">
+                        <span class="defaultImg">No Preview Image Available</span>
+                    </div>
+                    <div class="post-info">
+                        <div class="title">Title: </div>
+                        <div class="mealType">Meal Type: </div>
+                        <div class="author">Author: </div>
+                    </div>
+                    <a href="">
+                        <button class="postBtn btn">Read More</button>
+                    </a>
+            </div>
+
+            <div class="card" data-tab="recentPost">
+                <div class="imgContainer">
+                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
+                        <span class="defaultImg">No Preview Image Available</span>
+                </div>
+                <div class="post-info">
+                    <div class="title">Title: </div>
+                    <div class="mealType">Meal Type: </div>
+                    <div class="author">Author: </div>
+                </div>
+                <a href="">
+                        <button class="postBtn btn">Read More</button>
+                </a>
             </div>
 
             <div class="card" data-tab="popularRecipe">
@@ -143,11 +179,13 @@
                     <span class="defaultImg">No Preview Image Available</span>
                 </div>
                 <div class="post-info">
-                    <div class="title">Title</div>
-                    <div class="mealType">Meal Type</div>
-                    <div class="author">Author</div>
+                    <div class="title">Title: </div>
+                    <div class="mealType">Meal Type: </div>
+                    <div class="author">Author: </div>
                 </div>
-                <button>Read More</button>
+                <a href="">
+                    <button class="postBtn btn">Read More</button>
+                </a>
             </div>
             
             <div class="card" data-tab="chefPosts">
@@ -156,11 +194,13 @@
                     <span class="defaultImg">No Preview Image Available</span>
                 </div>
                 <div class="post-info">
-                    <div class="title">Title</div>
-                    <div class="mealType">Meal Type</div>
-                    <div class="author"> Author</div>
+                    <div class="title">Title: </div>
+                    <div class="mealType">Meal Type: </div>
+                    <div class="author"> Author: </div>
                 </div>
-                <button>Read More</button>
+                <a href="">
+                    <button class="postBtn btn">Read More</button>
+                </a>
             </div>
 
             <div class="card" data-tab="chefPosts">
@@ -169,11 +209,13 @@
                     <span class="defaultImg">No Preview Image Available</span>
                 </div>
                 <div class="post-info">
-                    <div class="title">Title</div>
-                    <div class="mealType">Meal Type</div>
-                    <div class="author">Author</div>
+                    <div class="title">Title: </div>
+                    <div class="mealType">Meal Type: </div>
+                    <div class="author">Author: </div>
                 </div>
-                <button>Read More</button>
+                <a href="">
+                    <button class="postBtn btn">Read More</button>
+                </a>
             </div>
 
             <div class="card" data-tab="popularRecipe">
@@ -182,18 +224,184 @@
                     <span class="defaultImg">No Preview Image Available</span>
                 </div>
                 <div class="post-info">
-                    <div class="title">Title</div>
-                    <div class="mealType">Meal Type</div>
-                    <div class="author">Author</div>
+                    <div class="title">Title: </div>
+                    <div class="mealType">Meal Type: </div>
+                    <div class="author">Author: </div>
                 </div>
-                <button>Read More</button>
+                <a href="">
+                    <button class="postBtn btn">Read More</button>
+                </a>
+            </div>
+
+            <div class="card" data-tab="popularRecipe">
+                <div class="imgContainer">
+                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
+                    <span class="defaultImg">No Preview Image Available</span>
+                </div>
+                <div class="post-info">
+                    <div class="title">Title: </div>
+                    <div class="mealType">Meal Type: </div>
+                    <div class="author">Author: </div>
+                </div>
+                <a href="">
+                    <button class="postBtn btn">Read More</button>
+                </a>
             </div>
 
         </div>
-        
+
+<!-- Carousel Component -->
+        <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card" data-tab="chefPosts">
+                                <div class="imgContainer">
+                                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
+                                    <span class="defaultImg">No Preview Image Available</span>
+                                </div>
+                                <div class="post-info">
+                                    <div class="title">Title: </div>
+                                    <div class="mealType">Meal Type: </div>
+                                    <div class="author">Author: </div>
+                                </div>
+                                <a href="">
+                                    <button class="postBtn btn">Read More</button>
+                                </a>
+                            </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card" data-tab="popularRecipe">
+                                <div class="imgContainer">
+                                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
+                                    <span class="defaultImg">No Preview Image Available</span>
+                                </div>
+                                <div class="post-info">
+                                    <div class="title">Title: </div>
+                                    <div class="mealType">Meal Type: </div>
+                                    <div class="author">Author: </div>
+                                </div>
+                                <a href="">
+                                    <button class="postBtn btn">Read More</button>
+                                </a>
+                            </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card" data-tab="recentPost">
+                                <div class="imgContainer">
+                                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
+                                    <span class="defaultImg">No Preview Image Available</span>
+                                </div>
+                                <div class="post-info">
+                                    <div class="title">Title: </div>
+                                    <div class="mealType">Meal Type: </div>
+                                    <div class="author">Author: </div>
+                                </div>
+                                <a href="">
+                                    <button class="postBtn btn">Read More</button>
+                                </a>
+                            </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card" data-tab="recentPost">
+                                <div class="imgContainer">
+                                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
+                                    <span class="defaultImg">No Preview Image Available</span>
+                                </div>
+                                <div class="post-info">
+                                    <div class="title">Title: </div>
+                                    <div class="mealType">Meal Type: </div>
+                                    <div class="author">Author: </div>
+                                </div>
+                                <a href="">
+                                    <button class="postBtn btn">Read More</button>
+                                </a>
+                            </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card" data-tab="popularRecipe">
+                                <div class="imgContainer">
+                                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
+                                    <span class="defaultImg">No Preview Image Available</span>
+                                </div>
+                                <div class="post-info">
+                                    <div class="title">Title: </div>
+                                    <div class="mealType">Meal Type: </div>
+                                    <div class="author">Author: </div>
+                                </div>
+                                <a href="">
+                                    <button class="postBtn btn">Read More</button>
+                                </a>
+                            </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card" data-tab="chefPosts">
+                                <div class="imgContainer">
+                                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
+                                    <span class="defaultImg">No Preview Image Available</span>
+                                </div>
+                                <div class="post-info">
+                                    <div class="title">Title: </div>
+                                    <div class="mealType">Meal Type: </div>
+                                    <div class="author"> Autho: r</div>
+                                </div>
+                                <a href="">
+                                    <button class="postBtn btn">Read More</button>
+                                </a>
+                            </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card" data-tab="chefPosts">
+                                <div class="imgContainer">
+                                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
+                                    <span class="defaultImg">No Preview Image Available</span>
+                                </div>
+                                <div class="post-info">
+                                    <div class="title">Title: </div>
+                                    <div class="mealType">Meal Type: </div>
+                                    <div class="author">Author: </div>
+                                </div>
+                                <a href="">
+                                    <button class="postBtn btn">Read More</button>
+                                </a>
+                            </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card" data-tab="popularRecipe">
+                                <div class="imgContainer">
+                                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
+                                    <span class="defaultImg">No Preview Image Available</span>
+                                </div>
+                                <div class="post-info">
+                                    <div class="title">Title: </div>
+                                    <div class="mealType">Meal Type: </div>
+                                    <div class="author">Author: </div>
+                                </div>
+                                <a href="">
+                                    <button class="postBtn btn">Read More</button>
+                                </a>
+                            </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>         -->
+
+
         <script src="index.js" async defer></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <div class="divider"></div>
+
+        <footer>
+            Copyright. Lambda Food 2019
+        </footer>
     </body>
-    <footer>
-        Copyright. Lambda Food 2019
-    </footer>
+
 </html>

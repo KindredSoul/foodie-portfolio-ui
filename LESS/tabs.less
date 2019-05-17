@@ -1,0 +1,26 @@
+.tabs {
+    .topics {
+        // background: @my-gray;
+        // .test-border;
+        .flex(center, center);
+        margin: 1% 20%;
+        .tab {
+            // .test-border;
+            font-size: 2.6rem;
+            margin: 0 3px;
+            padding: 5px 30px;
+            cursor: pointer;
+            font-weight: bold;
+            background: @my-gray;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .active-tab {
+            background-color: @my-orange;
+            color: white;
+            text-shadow: -2px 0 black, 0 2px black, 0 2px black, -2px 0 black;
+            border: 2px solid black;
+          }
+    }
+}
