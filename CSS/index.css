@@ -388,3 +388,103 @@ footer {
   width: auto;
   font-size: 1.6rem;
 }
+.productInfo {
+  background-image: url(../images/chef-with-fire.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2% 0;
+}
+.productInfo .about {
+  background: rgba(0, 0, 0, 0.522);
+  color: white;
+  height: 225px;
+  width: 55%;
+  margin: 0 0 2% 2%;
+}
+.productInfo .about h2 {
+  font-size: 3.4rem;
+  border-bottom: 2px solid #af1313;
+  margin-bottom: 1%;
+}
+.productInfo .about p {
+  font-size: 2.4rem;
+}
+.theDevs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: none;
+  flex-flow: row wrap;
+  background-image: url(../images/ICE-kitchen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.theDevs .meetUs {
+  width: 100%;
+}
+.theDevs .meetUs h2 {
+  font-size: 3.4rem;
+  text-align: center;
+  background: rgba(124, 124, 124, 0.541);
+  padding: 2% 0;
+}
+.theDevs .meetUs p {
+  font-size: 2.4rem;
+  text-align: center;
+  background: rgba(124, 124, 124, 0.541);
+  padding-bottom: 2%;
+}
+.theDevs .devInfo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: none;
+  align-content: none;
+  flex-flow: row wrap;
+  border: 2px solid #af1313;
+  border-radius: 50px;
+  background: rgba(124, 124, 124, 0.541);
+  width: 40%;
+  margin: 2%;
+}
+.theDevs .devInfo .devImg {
+  border: 1px solid black;
+  width: 30%;
+  padding: 2%;
+}
+.theDevs .devInfo .devImg img {
+  width: 100%;
+  border-radius: 100%;
+}
+.theDevs .devInfo .aboutDev {
+  border: 1px solid black;
+  width: 60%;
+  padding: 3% 5%;
+}
+.theDevs .devInfo .aboutDev h3 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.theDevs .devInfo .aboutDev p {
+  padding: 1% 2%;
+}
+.theDevs .devInfo .devLinks {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: none;
+  flex-flow: row wrap;
+  width: 80%;
+}
+.theDevs .devInfo .devLinks span a {
+  background: rgba(0, 0, 0, 0.322);
+  text-decoration: none;
+  color: white;
+}
+.theDevs .devInfo .devLinks span a:hover {
+  background: rgba(124, 124, 124, 0.541);
+  color: #af1313;
+}
