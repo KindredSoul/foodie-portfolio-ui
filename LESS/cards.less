@@ -1,0 +1,56 @@
+// .card {
+//     .test-border;
+//     .flex(space-between, @ac: left, @dir: column);
+//     background: white;
+//     line-height: 20px;
+//     
+//     }
+//     .defaultImg {
+//         display: none;
+//     }
+//     .postBtn {
+//         text-align: center;
+//         align-self: center;
+//         width: auto;
+//         
+//         background-color: @my-orange;
+//     }
+// }
+
+.cards-container {
+    .flex();
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    // width: 100%;
+    .card {
+        .test-border;
+        .flex(space-between, @ac: left, @dir: column);
+        flex: 0 0 auto;
+        background: white;
+        line-height: 20px;
+        width: 200px;
+        margin: 0 20px;
+
+        .previewImg {
+        width: 100%;
+        }
+
+        .defaultImg {
+            display: none;
+        }
+        .post-info {
+        }
+        .postBtn {
+            text-align: center;
+            align-self: center;
+            width: auto;
+            font-size: 1.6rem;
+        }
+    }
+}
+
+// .carousel-item {
+//     .card {
+//         margin-left: 43%;
+//     }
+// }
