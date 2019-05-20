@@ -196,7 +196,6 @@ footer {
   padding: 3% 2% 1%;
 }
 .header .logo {
-  border: 1px solid black;
   font-size: 4.4rem;
   display: flex;
   justify-content: none;
@@ -209,7 +208,6 @@ footer {
   height: 10%;
 }
 .header .nav-container {
-  border: 1px solid black;
   width: 40%;
   font-size: 2.4rem;
 }
@@ -231,7 +229,6 @@ footer {
   display: none;
 }
 .header .login-signUp {
-  border: 1px solid black;
   font-size: 2rem;
 }
 .header .login-signUp .navSignUp a {
@@ -564,6 +561,12 @@ footer {
   .landing .cta .ctaContentTop {
     margin: 1% 0;
     width: 45%;
+  }
+  .landing .cta .ctaContentTop .ctaLogin {
+    padding-top: 10%;
+  }
+  .landing .cta .ctaContentTop .ctaLogin .ctaLoginContent .btn {
+    margin: 5% 3%;
   }
   .landing .cta .ctaContentBot {
     margin: 1% 0;
