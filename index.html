@@ -13,8 +13,9 @@
     <body>
 
 <!-- Navigation -->
-        <header class="header">
+        <header class="header sticky">
             <div class="logo">
+                <img src="./images/logo.png" alt=""> 
                 <h1>Lambda Eats</h1>
             </div>
             <div class="nav-container">
@@ -23,6 +24,17 @@
                     <a href="#">Posts</a>
                     <a href="about.html">About Us</a>
                 </nav>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle btn-lg" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Menu
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item active" href="#">Home</a>
+                      <a class="dropdown-item" href="#">Posts</a>
+                      <a class="dropdown-item" href="about.html">About Us</a>
+                      <a class="dropdown-item" href="#">Sign In</a>
+                    </div>
+                </div>
             </div>
             <div class="login-signUp">
                 <span class="navSignUp">New user? Sign Up <a href="#">Here</a>!</span>
@@ -33,7 +45,7 @@
         <section class="landing">
             <article class="postOfTheDay">
                 <div class="postImg">
-                    <img style="border-radius: 5px" src="./images/pastapenne.jpg" alt="">
+                    <img src="./images/pastapenne.jpg" alt="">
                     <h2 class="postHeader">This Week's Favorite Post</h2>
                     <a href=""><button class="postTextBtn btn">
                             This astounding dish will leave you wanting more!<br>
@@ -41,23 +53,25 @@
                     </button></a>
                 </div>
             </article>
+
             <article class="cta">
                 <div class="ctaContentTop">
                     <div class="ctaImg">
                         <img src="./images/culinary-frame.jpg" alt="">
                         <div class="ctaLogin">
-                            <span class="ctaLoginText">Join thousands of other culinary experts today and learn why Lambda Eats is <br>
-                            the number go to place for world class chefs and at home cooks alike! </span><br>
+                            <span class="ctaLoginContent">Join thousands of other culinary experts today and learn why Lambda Eats is <br>
+                                the number go to place for world class chefs and at home cooks alike! <br>
+                            </span>
+                                
+                                <a href=""><button class="signUpBtn btn">Sign Up</button></a>
 
-                            <a href=""><button class="signUpBtn btn">Sign Up</button></a><br>
-
-                            <a href=""><button class="loginBtn btn">Login</button></a>
+                                <a href=""><button class="loginBtn btn">Login</button></a>
                         </div>
                     </div> 
                 </div>
                 <div class="ctaContentBot">
                     <div class="ctaPostImg">
-                        <img style="width: 100%" src="./images/burrito.jpg" alt="">
+                        <img src="./images/burrito.jpg" alt="">
                         <span class="postHeader">Last Week's Favorite</span>
                         <a href="">
                             <button class="ctaPostBtn btn">View last week's delicious post </button>
@@ -250,147 +264,7 @@
 
         </div>
 
-<!-- Carousel Component -->
-        <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="card" data-tab="chefPosts">
-                                <div class="imgContainer">
-                                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
-                                    <span class="defaultImg">No Preview Image Available</span>
-                                </div>
-                                <div class="post-info">
-                                    <div class="title">Title: </div>
-                                    <div class="mealType">Meal Type: </div>
-                                    <div class="author">Author: </div>
-                                </div>
-                                <a href="">
-                                    <button class="postBtn btn">Read More</button>
-                                </a>
-                            </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card" data-tab="popularRecipe">
-                                <div class="imgContainer">
-                                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
-                                    <span class="defaultImg">No Preview Image Available</span>
-                                </div>
-                                <div class="post-info">
-                                    <div class="title">Title: </div>
-                                    <div class="mealType">Meal Type: </div>
-                                    <div class="author">Author: </div>
-                                </div>
-                                <a href="">
-                                    <button class="postBtn btn">Read More</button>
-                                </a>
-                            </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card" data-tab="recentPost">
-                                <div class="imgContainer">
-                                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
-                                    <span class="defaultImg">No Preview Image Available</span>
-                                </div>
-                                <div class="post-info">
-                                    <div class="title">Title: </div>
-                                    <div class="mealType">Meal Type: </div>
-                                    <div class="author">Author: </div>
-                                </div>
-                                <a href="">
-                                    <button class="postBtn btn">Read More</button>
-                                </a>
-                            </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card" data-tab="recentPost">
-                                <div class="imgContainer">
-                                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
-                                    <span class="defaultImg">No Preview Image Available</span>
-                                </div>
-                                <div class="post-info">
-                                    <div class="title">Title: </div>
-                                    <div class="mealType">Meal Type: </div>
-                                    <div class="author">Author: </div>
-                                </div>
-                                <a href="">
-                                    <button class="postBtn btn">Read More</button>
-                                </a>
-                            </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card" data-tab="popularRecipe">
-                                <div class="imgContainer">
-                                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
-                                    <span class="defaultImg">No Preview Image Available</span>
-                                </div>
-                                <div class="post-info">
-                                    <div class="title">Title: </div>
-                                    <div class="mealType">Meal Type: </div>
-                                    <div class="author">Author: </div>
-                                </div>
-                                <a href="">
-                                    <button class="postBtn btn">Read More</button>
-                                </a>
-                            </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card" data-tab="chefPosts">
-                                <div class="imgContainer">
-                                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
-                                    <span class="defaultImg">No Preview Image Available</span>
-                                </div>
-                                <div class="post-info">
-                                    <div class="title">Title: </div>
-                                    <div class="mealType">Meal Type: </div>
-                                    <div class="author"> Autho: r</div>
-                                </div>
-                                <a href="">
-                                    <button class="postBtn btn">Read More</button>
-                                </a>
-                            </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card" data-tab="chefPosts">
-                                <div class="imgContainer">
-                                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
-                                    <span class="defaultImg">No Preview Image Available</span>
-                                </div>
-                                <div class="post-info">
-                                    <div class="title">Title: </div>
-                                    <div class="mealType">Meal Type: </div>
-                                    <div class="author">Author: </div>
-                                </div>
-                                <a href="">
-                                    <button class="postBtn btn">Read More</button>
-                                </a>
-                            </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card" data-tab="popularRecipe">
-                                <div class="imgContainer">
-                                    <img class="previewImg" src="images/chopping-board.jpg" alt="">
-                                    <span class="defaultImg">No Preview Image Available</span>
-                                </div>
-                                <div class="post-info">
-                                    <div class="title">Title: </div>
-                                    <div class="mealType">Meal Type: </div>
-                                    <div class="author">Author: </div>
-                                </div>
-                                <a href="">
-                                    <button class="postBtn btn">Read More</button>
-                                </a>
-                            </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-            </a>
-        </div>         -->
+
 
 
         <script src="index.js" async defer></script>

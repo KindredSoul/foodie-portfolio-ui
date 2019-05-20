@@ -6,8 +6,8 @@
     .about {
         background: @fadedBlack2;
         color: white;
-        height: 225px;
-        width: 55%;
+        height: 30%;
+        width: 75%;
         margin: 0 0 2% 2%;
         h2 {
             font-size: 3.4rem;
@@ -17,6 +17,9 @@
         p {
             font-size: 2.4rem;
         }
+    }
+    .carousel {
+        display: none;
     }
 }
 
@@ -46,10 +49,12 @@
         border: 2px solid @lambda-red;
         border-radius: 50px;
         background: @fadedGray;
-        width: 40%;
-        margin: 2%;
+        width: 50%;
+        height: 100%;
+        margin: 2% 0 2% 25%;
+        align-self: center;
         .devImg {
-            .test-border;
+            // .test-border;
             width: 30%;
             padding: 2%;
             img {
@@ -58,7 +63,7 @@
             }
         }
         .aboutDev {
-            .test-border;
+            // .test-border;
             width: 60%;
             padding: 3% 5%;
             h3 {
@@ -72,9 +77,10 @@
             }
         }
         .devLinks {
-            .test-border;
+            // .test-border;
             .flex(@jc: space-evenly, @ai: center);
             width: 80%;
+            margin: 1% 0;
             span {
                 a {
                     background: @fadedBlack;
