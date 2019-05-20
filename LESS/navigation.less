@@ -2,19 +2,25 @@
     .header-border();
     .header-background();
     .flex(space-between, baseline);
+    flex-wrap: nowrap;
     max-width: 100%;
     height: 10%;
     padding: 3% 2% 1%;
     .logo {
-        // .test-border;
+        .test-border;
         font-size: 4.4rem;
+        .flex;
+        img {
+            width: 10%;
+            height: 10%;
+        }
     }
     .nav-container {
         .nav {
             .a-tag;
             .flex(space-between, center)
         }
-        // .test-border;
+        .test-border;
         width: 40%;
         font-size: 2.4rem;
         .dropdown {
@@ -22,7 +28,7 @@
         }
     }
     .login-signUp {
-        // .test-border;
+        .test-border;
         .navSignUp {
             .a-tag;
         }

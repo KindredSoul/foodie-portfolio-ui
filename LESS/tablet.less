@@ -1,15 +1,15 @@
 @media @tablet {
-    // Navigation
+
+// Navigation ==================
     .header {
         .nav-container {
-            .test-border;
+            // .test-border;
             width: 10%;
             .nav {
                 display: none;
             }
             .dropdown {
                 display: initial;
-
 
                 .btn {
                     font-size: 1.6rem;
@@ -24,21 +24,45 @@
             display: none;
         }
     }
-
+// ====================  Home Page ====================
+// Landing ===================
     .landing {
         flex-direction: column;
         .postOfTheDay {
-            width: 95%;
+            padding: 1% 0;
+            margin-bottom: 1%;
+            width: 100%;
         }
+
         .cta {
             .flex(space-evenly);
-            width: 95%;
+            // .test-border;
+            width: 100%;
             .ctaContentTop {
+                margin: 1% 0;
                 width: 45%;
             }
             .ctaContentBot {
+                // .test-border;
+                margin: 1% 0;
                 width: 45%;
+
             }
         }
+    }
+
+// Popular Posts Section ==========
+    .tabs {
+        .topics {
+            .flex(space-evenly);
+            flex-wrap: nowrap;
+            margin: 1% 2%;
+            max-width: 100%;
+            .tab {
+                margin: 1% 2%;
+                padding: 1% 0.5%;
+            }
+        }
+
     }
 }
