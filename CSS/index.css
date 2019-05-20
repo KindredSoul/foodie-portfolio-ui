@@ -432,8 +432,8 @@ footer {
 .productInfo .about {
   background: rgba(0, 0, 0, 0.522);
   color: white;
-  height: 225px;
-  width: 55%;
+  height: 30%;
+  width: 75%;
   margin: 0 0 2% 2%;
 }
 .productInfo .about h2 {
@@ -443,6 +443,9 @@ footer {
 }
 .productInfo .about p {
   font-size: 2.4rem;
+}
+.productInfo .carousel {
+  display: none;
 }
 .theDevs {
   display: flex;
@@ -585,5 +588,14 @@ footer {
   .tabs .topics .tab {
     margin: 1% 2%;
     padding: 1% 0.5%;
+  }
+  .productInfo .about {
+    width: 95%;
+  }
+  .productInfo .lgView {
+    display: none;
+  }
+  .productInfo .carousel {
+    display: initial;
   }
 }
